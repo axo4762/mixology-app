@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e8e8e8;
+}
+nav a {
+  padding: 1rem;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+nav a:hover {
+  color: white;
+  background-color: #42545c;
+}
+nav a:active {
+  background-color: black;
+}
+.push-right {
+  margin-left: auto;
+}
+nav span {
+  padding: 0rem 3rem;
+}
